@@ -1,0 +1,111 @@
+/* Style the container for the contact information and form */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/premium-photo/web-contact-us-icons-blue-background-contact-us-cutomer-support-concept-copy-space-website-page-contact-us-web-banner-copy-space-blue-background_256259-1520.jpg');
+  background-size: cover; /* You can adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Add any other CSS properties you need for styling */
+
+}
+
+/* Style individual contact information boxes */
+.box {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 300px; /* Adjust the width as needed */
+}
+
+.box .icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style the contact form */
+.contactform {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  flex: 1; /* Take up remaining space in the flex container */
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+
+.contactform h2 {
+  font-size: 24px;
+  margin: 0; /* Remove default margin */
+  margin-top: -10px; /* Add a negative margin to move it slightly up */
+}
+.inputBox {
+  margin-bottom: 15px;
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputBox span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.inputBox input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputBox input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the contact content */
+.contact-content {
+  text-align: center; /* Center-align the content */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.contact-content h2 {
+  font-size: 24px;
+  margin: 0; /* Remove default margin */
+  margin-top: -50px; /* Add a negative margin to move it slightly up */
+}
+
+/* Rest of your CSS styles for .contact-content p, etc. */
+/* Style the .text element */
+.contactform {
+  background-image: url('https://img.freepik.com/premium-photo/web-contact-us-icons-blue-background-contact-us-cutomer-support-concept-copy-space-website-page-contact-us-web-banner-copy-space-blue-background_256259-1520.jpg');
+  background-size: cover; /* You can adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Add any other CSS properties you need for styling */
+}
+
+
+.contactInfo{
+  background-image: url('https://img.freepik.com/premium-photo/web-contact-us-icons-blue-background-contact-us-cutomer-support-concept-copy-space-website-page-contact-us-web-banner-copy-space-blue-background_256259-1520.jpg');
+  background-size: cover; /* You can adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Add any other CSS properties you need for styling */
+}
